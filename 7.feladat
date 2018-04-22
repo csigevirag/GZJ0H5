@@ -1,1 +1,4 @@
-
+def prime_factor(number):
+  factor=2
+  while factor*factor<=number:
+  
