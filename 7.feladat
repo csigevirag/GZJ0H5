@@ -1,4 +1,4 @@
-def prime_factor(number):
-  factor=2
-  while factor*factor<=number:
+import sys
+def longest(num):
+  s=len(num)
   
