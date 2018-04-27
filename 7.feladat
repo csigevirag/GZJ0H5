@@ -1,4 +1,6 @@
 import sys
 def longest(num):
   s=len(num)
+  for i in range(0,s//2):
+  
   
