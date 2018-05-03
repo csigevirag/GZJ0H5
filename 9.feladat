@@ -1,6 +1,8 @@
 def prime_factor(number):
   factor=2
   while factor*factor<=number:
-        while num%factor=0:
-              num/=factor
+        while number%factor=0:
+              number/=factor
         factor+=1
+  if number>1:
+        return number
