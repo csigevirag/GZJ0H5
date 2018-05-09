@@ -1,4 +1,4 @@
-def prime_factor(number):
+def prime_factor(n):
     i = 2
     while i * i <= n:
         if n % i:
