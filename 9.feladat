@@ -1,13 +1,11 @@
 def prime_factor(number):
-  factor=2
-  while factor*factor<=number:
-        while number%factor=0:
-              number/=factor
-        factor+=1
-  if number>1:
-        return number
-
-
+    i = 2
+    while i * i <= n:
+        if n % i:
+            i += 1
+        else:
+            n //= i
+    return n
 
 
 
