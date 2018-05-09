@@ -7,6 +7,23 @@ def prime_factor(n):
             n //= i
     return n
 
-
-
 print(prime_factor(600851475143))
+
+
+
+from math import sqrt
+# 
+# def legnagyobbprimtenyezo(szam):
+#     primtenyezo=0
+#     for i in range(1,szam):
+#         if prim(i) and szam % i == 0:
+#             primtenyezo = i
+#     return primtenyezo
+# 
+# def prim(n):
+#     for i in range(2,int(sqrt(n))+1):
+#         if n % i == 0:
+#             return False
+#     return True
+# 
+# print(legnagyobbprimtenyezo(600851475143))
