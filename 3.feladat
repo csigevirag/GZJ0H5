@@ -1,7 +1,16 @@
 import math
 def frame(str):
 
-
+s = '*'
+k = -(math.inf)
+for i in str:
+    if len(i) > k:
+        k = len(i)
+print((k+4)*s)
+for j in str:
+    j += (k-len(j))*' '
+    print("{0} {1} {2}".format(s,j,s))
+print((k+4)*s)
 
 
 li=["Hello", "World", "in", "a", "frame"]
