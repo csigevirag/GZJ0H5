@@ -1,6 +1,5 @@
 import math
 def frame(str):
-
 s = '*'
 k = -(math.inf)
 for i in str:
