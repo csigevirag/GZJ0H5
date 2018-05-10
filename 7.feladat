@@ -6,7 +6,7 @@ def longest():
          li.append(i)
   min=0
   for j in li:
-      if len(j)min:
+      if len(j)>min:
          j=min
    return j
   
