@@ -1,4 +1,4 @@
-def longest(num):
+def longest():
   max=input('Adj meg egy mondatot')
   li=[]
   for i in max.split(' '):
